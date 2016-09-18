@@ -10,17 +10,17 @@ app.get('/', function (req, res) {
 });
 
 app.get('/Article1', function (req, res) {
-   res.sendFile(path.join(__dirname, 'ui', 'Article 1.html'));
+   res.sendFile(path.join(__dirname, 'ui', 'Article1.html'));
    //res.send("Article1 request will be served here"); 
 });
 
 app.get('/Article2', function (req, res) {
-   res.sendFile(path.join(__dirname, 'ui', 'Article 2.html'));
+   res.sendFile(path.join(__dirname, 'ui', 'Article2.html'));
    //res.send("Article2 request will be served here"); 
 });
 
 app.get('/Article3', function (req, res) {
-   res.sendFile(path.join(__dirname, 'ui', 'Article 3.html'));
+   res.sendFile(path.join(__dirname, 'ui', 'Article3.html'));
    //res.send("Article3 request will be served here"); 
 });
 
